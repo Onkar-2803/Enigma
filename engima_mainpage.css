@@ -1,0 +1,25 @@
+.jumbotron{
+    margin:50px auto;
+    width: 900px;
+}
+
+#btn1{
+    margin: 0px 150px;
+}
+
+.card{
+    margin: 20px auto;
+}
+
+.card-header{
+    padding: 25px auto;
+}
+
+#footer-end{
+    text-align: center
+}
+
+.img{
+    object-fit: cover;
+    background-size: cover;
+}
