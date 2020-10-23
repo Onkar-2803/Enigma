@@ -1,0 +1,29 @@
+
+.container-fluid{
+    padding-top: 5%;
+}
+
+#Buttons-end{
+    margin-top: 6%;
+}
+
+#Review{
+    margin-top: 15%;
+}
+
+#Button_last{
+    width:20%;
+}
+
+#Grid{
+    width:200%;
+    margin-top: 40%;
+}  
+
+#Q{
+    font-size: 2vw;
+}
+
+#OP{
+    font-size: 2vw;    
+}
