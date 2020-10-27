@@ -19,6 +19,7 @@
     width:200%;
     /* margin-top: 40%; */
     margin-top: 0.6rem;
+    
 }  
 
 #Q{
@@ -36,3 +37,37 @@
 .p{
     border: solid 1px red;
 }
+
+.not-mobile{
+    display: none;
+}
+
+.floating{
+    position: fixed;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translate(-185%, 0);
+  } 
+
+  .floating a{
+    color: #fff;
+    background: rgba(0, 0, 0, 0.4);
+    font-size: 2vw;
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
+    margin: 5%;
+    padding: 8%;
+    width: 200%;
+    text-align: right;
+    border-radius: 50px;
+    transition: 1s;
+    transition-property: transform;
+  }
+  
+  .floating a:hover{
+    transform: translate(40%, 0);
+  }
+
