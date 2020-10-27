@@ -39,10 +39,6 @@
     border: solid 1px red;
 }
 
-.not-mobile{
-    display: none;
-}
-
 .floating{
     position: fixed;
     height: 20vh;
@@ -72,3 +68,17 @@
     transform: translate(40%, 0);
   }
 
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 576px) {
+    .mobile{
+        display:none;
+    }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 576px) {
+    .not-mobile{
+        display: none;
+    }
+    
+  }
